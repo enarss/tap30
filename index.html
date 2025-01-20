@@ -10,6 +10,7 @@
     <meta name="keywords" content="TAXI">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/Style.css">
+    <script type="text/javascript" src="./css/script.js" defer></script>
 </head>
 
 <body>
@@ -25,7 +26,7 @@
                 </g>
             </svg>
         </a>
-        <div class="nav__hamburger">
+        <div class="nav__hamburger collapsible">
             <span class="bar1"></span>
             <span class="bar2"></span>
             <span class="bar3"></span>
@@ -54,6 +55,28 @@
             </li>
         </ul>
     </nav>
+    <nav>
+        <ul class="collaps">
+            <li>
+                <a class="link-arow" href="#">ویدیوها</a>
+            </li>
+            <li>
+                <a class="link-arow" href="#">پشتیبانی</a>
+            </li>
+            <li>
+                <a class="link-arow" href="#">امور سهام</a>
+            </li>
+            <li>
+                <a class="link-arow" href="#">تپسی‌پک</a>
+            </li>
+            <li>
+                <a class="link-arow" href="#">فرصت‌های شغلی</a>
+            </li>
+            <li>
+                <a class="link-arow" href="#">وبلاگ</a>
+            </li>
+        </ul>
+    </nav>
 
     <section class="baner">
         <picture>
@@ -69,10 +92,10 @@
                     <h2 class="sub-title">اپلیکیشن درخواست خودرو و پیک</h2>
                     <div class="intro-btn">
                         <div class="intro-btn-passanger">
-                            <button class="btn">دانلود اپلیکیشن مسافران</button>
+                            <button class="btn btn--first">دانلود اپلیکیشن مسافران</button>
                         </div>
                         <div class="intro-btn-passanger">
-                            <button class="btn">وب اپلیکیشن مسافران</button>
+                            <button class="btn btn--first">وب اپلیکیشن مسافران</button>
                         </div>
                         <div class="intro-btn-passanger">
                             <button class="btn btn--secondary">ثبت‌نام راننده خودرو</button>
@@ -203,8 +226,9 @@
         <img class="driver__img" src="./img/driver.webp" alt="">
         <div class="driver__content">
             <h2>مزایای تپسی برای رانندگان تاکسی اینترنتی</h2>
-            <p>رانندگان (سفیران) به‌عنوان همکاران تپسی، جایگاه ویژه‌ای برای شرکت دارند. به همین‌دلیل مزایای مختلفی برای آنها در نظر گرفته شده است.</p>
-             <h3>کسب درآمد روزانه، پایدار و بدون محدودیت</h3>
+            <p>رانندگان (سفیران) به‌عنوان همکاران تپسی، جایگاه ویژه‌ای برای شرکت دارند. به همین‌دلیل مزایای مختلفی برای
+                آنها در نظر گرفته شده است.</p>
+            <h3>کسب درآمد روزانه، پایدار و بدون محدودیت</h3>
             <ul>
                 <li>۱. امکان تسویه‌ی اعتبار در هر ساعت از شبانه‌روز</li>
                 <li>۲. طرح‌های تشویقی، ماموریت‌ها‌، پاداش و اعطای وام‌های قرض‌الحسنه به‌طور دوره‌ای</li>
@@ -215,7 +239,7 @@
                 <li>۱. پشتیبانی ۲۴ ساعته</li>
                 <li>۲. امکانات امنیت سفر شامل تماس اضطراری با واحد امنیت و پشتیبانی ۲۴ ساعته تیم امنیت</li>
             </ul>
-            <h3>استفاده از مزایای  <span id="drivers">باشگاه رانندگان تپسی</span></h3>
+            <h3>استفاده از مزایای <span id="drivers">باشگاه رانندگان تپسی</span></h3>
             <ul>
                 <li>۱. امکانات امنیت سفر شامل تماس اضطراری با واحد امنیت و پشتیبانی ۲۴ ساعته تیم امنیت</li>
                 <li>۲. تخفیف روی خدمات رفاهی مانند وام قرض‌الحسنه، خدمات درمانی، خرید اقساطی و ...</li>
@@ -225,7 +249,7 @@
                 <button class="btn btn--third">دانلود برنامه تپسی راننده</button>
             </div>
         </div>
-        
+
     </section>
 
     <section class="blog-content">
@@ -234,79 +258,210 @@
             <div class="blog__card">
                 <img class="blog__img" src="./img/Car-Hesitates-to-Start.jpg" alt="">
                 <h3>دلایل استارت نخوردن خودرو</h3>
-                <p>استارت نخوردن ماشین یکی از مشکلات رایجی است که می‌تواند برای هر راننده‌ای اتفاق بیفتد و باعث ایجاد تأخیر در کارها و ناراحتی شود. این مشکل می‌تواند دلایل متعددی داشته باشد؛ از نقص در سیستم برق‌رسانی خودرو گرفته تا اختلال در اجزای مکانیکی و سوخ</p>
+                <p>استارت نخوردن ماشین یکی از مشکلات رایجی است که می‌تواند برای هر راننده‌ای اتفاق بیفتد و باعث ایجاد
+                    تأخیر در کارها و ناراحتی شود. این مشکل می‌تواند دلایل متعددی داشته باشد؛ از نقص در سیستم برق‌رسانی
+                    خودرو گرفته تا اختلال در اجزای مکانیکی و سوخ</p>
             </div>
             <div class="blog__card">
                 <img class="blog__img" src="./img/بهترین-موتور-کم-استهلاک-در-بازار.jpg" alt="">
                 <h3>بهترین موتورهای کم‌استهلاک برای کار و استفاده روزانه</h3>
-                <p>اگر به دنبال خرید موتور و استفاده روزانه از آن هستید، یکی از ویژگی‌هایی که باید در نظر بگیرید کم‌استهلاک بودن آن است. چراکه این موضوع مستقیما بر هزینه‌های شما تاثیر دارد. در ادامه این مطلب، بهترین موتورهای</p>
+                <p>اگر به دنبال خرید موتور و استفاده روزانه از آن هستید، یکی از ویژگی‌هایی که باید در نظر بگیرید
+                    کم‌استهلاک بودن آن است. چراکه این موضوع مستقیما بر هزینه‌های شما تاثیر دارد. در ادامه این مطلب،
+                    بهترین موتورهای</p>
             </div>
             <div class="blog__card">
                 <img class="blog__img" src="./img/کاور-2.jpg" alt="">
                 <h3>علائم خرابی سوپاپ خودرو + دلایل و انواع</h3>
-                <p>یکی از عجیب‌ترین اتفاقاتی که ممکن است در خودرو رخ دهد، صدای «تِق‌تِق» مداوم از موتور است. انگار که موتور دارد به زبان خودش اعتراض می‌کند! این صدا می‌تواند از</p>
+                <p>یکی از عجیب‌ترین اتفاقاتی که ممکن است در خودرو رخ دهد، صدای «تِق‌تِق» مداوم از موتور است. انگار که
+                    موتور دارد به زبان خودش اعتراض می‌کند! این صدا می‌تواند از</p>
             </div>
         </section>
     </section>
+    <section class="iran">
+        <h2 class="iran__heading">تپسی در ایران</h2>
+        <div class="iran__flex">
+            <div class="city">
+                <h3 class="per">شهر 1</h3>
+                <h3 class="eng">city 1</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 2</h3>
+                <h3 class="eng">city 2</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 3</h3>
+                <h3 class="eng">city 3</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 4</h3>
+                <h3 class="eng">city 4</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 5</h3>
+                <h3 class="eng">city 5</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 6</h3>
+                <h3 class="eng">city 6</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 7</h3>
+                <h3 class="eng">city 7</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 8</h3>
+                <h3 class="eng">city 8</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 9</h3>
+                <h3 class="eng">city 9</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 10</h3>
+                <h3 class="eng">city 10</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 11</h3>
+                <h3 class="eng">city 11</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 12</h3>
+                <h3 class="eng">city 12</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 13</h3>
+                <h3 class="eng">city 13</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 14</h3>
+                <h3 class="eng">city 14</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 15</h3>
+                <h3 class="eng">city 15</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 16</h3>
+                <h3 class="eng">city 16</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 17</h3>
+                <h3 class="eng">city 17</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 18</h3>
+                <h3 class="eng">city 18</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 19</h3>
+                <h3 class="eng">city 19</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 20</h3>
+                <h3 class="eng">city 20</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 21</h3>
+                <h3 class="eng">city 21</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 22</h3>
+                <h3 class="eng">city 22</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 23</h3>
+                <h3 class="eng">city 23</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 24</h3>
+                <h3 class="eng">city 24</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 25</h3>
+                <h3 class="eng">city 25</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 26</h3>
+                <h3 class="eng">city 26</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 27</h3>
+                <h3 class="eng">city 27</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 28</h3>
+                <h3 class="eng">city 28</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 29</h3>
+                <h3 class="eng">city 29</h3>
+            </div>
+            <div class="city">
+                <h3 class="per">شهر 30</h3>
+                <h3 class="eng">city 30</h3>
+            </div>
+        </div>
+    </section>
     <footer class="footer">
         <div class="footer__flex">
-          <div class="footer__box">
-            <div class="footer__logo"><img src="./svg/tapsi-logo-white.svg"></div>
-            <h3 class="footer__logo__text">اپلیکیشن درخواست خودرو و پیک</h3>
-            <p class="desktop-copyright copyright">تمام حقوق مادی و معنوی این وبسایت متعلق به تپسی است.</p>
-          </div>
-          <div class="footer__box">
-            <h6>تپسی</h6>
-            <ul>
-              <li><a href="">وبلاگ تپسی</a></li>
-              <li><a href="">فرصت شغلی</a></li>
-              <li><a href="">تماس با ما</a></li>
-              <li><a href="">لوگو و هویت سازمانی</a></li>
-              <li><a href="">استخدام بازاریاب</a></li>
-            </ul>
-          </div>
-          <div class="footer__box">
-            <h6>کسب و کارها</h6>
-            <ul>
-              <li><a href="">وبلاگ تپسی</a></li>
-              <li><a href="">فرصت شغلی</a></li>
-              <li><a href="">تماس با ما</a></li>
-              <li><a href="">لوگو و هویت سازمانی</a></li>
-              <li><a href="">استخدام بازاریاب</a></li>
-            </ul>
-          </div>
-          <div class="footer__box">
-            <h6>مسافران</h6>
-            <ul>
-              <li><a href="">وبلاگ تپسی</a></li>
-              <li><a href="">فرصت شغلی</a></li>
-              <li><a href="">تماس با ما</a></li>
-              <li><a href="">لوگو و هویت سازمانی</a></li>
-              <li><a href="">استخدام بازاریاب</a></li>
-            </ul>
-          </div>
-          <div class="footer__box">
-            <h6>رانندگان</h6>
-            <ul>
-              <li><a href="">وبلاگ تپسی</a></li>
-              <li><a href="">فرصت شغلی</a></li>
-              <li><a href="">تماس با ما</a></li>
-              <li><a href="">لوگو و هویت سازمانی</a></li>
-              <li><a href="">استخدام بازاریاب</a></li>
-            </ul>
-          </div>
-          <div class="footer__namad">
-          </div>
-    
+            <div class="footer__box">
+                <div class="footer__logo"><img src="./svg/tapsi-logo-white.svg"></div>
+                <h3 class="footer__logo__text">اپلیکیشن درخواست خودرو و پیک</h3>
+                <p class="desktop-copyright copyright">تمام حقوق مادی و معنوی این وبسایت متعلق به تپسی است.</p>
+            </div>
+            <div class="footer__box">
+                <h6>تپسی</h6>
+                <ul>
+                    <li><a href="">وبلاگ تپسی</a></li>
+                    <li><a href="">فرصت شغلی</a></li>
+                    <li><a href="">تماس با ما</a></li>
+                    <li><a href="">لوگو و هویت سازمانی</a></li>
+                    <li><a href="">استخدام بازاریاب</a></li>
+                </ul>
+            </div>
+            <div class="footer__box">
+                <h6>کسب و کارها</h6>
+                <ul>
+                    <li><a href="">وبلاگ تپسی</a></li>
+                    <li><a href="">فرصت شغلی</a></li>
+                    <li><a href="">تماس با ما</a></li>
+                    <li><a href="">لوگو و هویت سازمانی</a></li>
+                    <li><a href="">استخدام بازاریاب</a></li>
+                </ul>
+            </div>
+            <div class="footer__box">
+                <h6>مسافران</h6>
+                <ul>
+                    <li><a href="">وبلاگ تپسی</a></li>
+                    <li><a href="">فرصت شغلی</a></li>
+                    <li><a href="">تماس با ما</a></li>
+                    <li><a href="">لوگو و هویت سازمانی</a></li>
+                    <li><a href="">استخدام بازاریاب</a></li>
+                </ul>
+            </div>
+            <div class="footer__box">
+                <h6>رانندگان</h6>
+                <ul>
+                    <li><a href="">وبلاگ تپسی</a></li>
+                    <li><a href="">فرصت شغلی</a></li>
+                    <li><a href="">تماس با ما</a></li>
+                    <li><a href="">لوگو و هویت سازمانی</a></li>
+                    <li><a href="">استخدام بازاریاب</a></li>
+                </ul>
+            </div>
+            <div class="footer__namad">
+                <div class="namad__box"><img src="./img/etehadiye.png" alt=""></div>
+                <div class="namad__box"><img src="./img/etehadiye.png" alt=""></div>
+                <div class="namad__box"><img src="./img/etehadiye.png" alt=""></div>
+            </div>
+
         </div>
         <p class="mobile-copyright copyright">تمام حقوق مادی و معنوی این وبسایت متعلق به تپسی است.</p>
-    
-        <div class="footer__contact">
-          <h3 class="contact__heading">تپسی در شبکه‌های اجتماعی </h3>
-        </div>
-      </footer>
-    
 
+        <div class="footer__contact">
+            <h3 class="contact__heading">تپسی در شبکه‌های اجتماعی </h3>
+        </div>
+    </footer>
 </body>
 
 </html>
